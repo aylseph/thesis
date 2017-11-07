@@ -1,0 +1,79 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Bartle's taxonomy graph (adapted from \cite {bartle1996hearts}).\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of Board Game Motivation Profile from Quantic Foundry\cite {chartprofile}.\relax }}{5}{figure.caption.6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of one of the Cardboard Republic Archetypes (from \cite {cardboard}).\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces On the left, BrainHex classes, on the right the corresponding parts of the brain (red text) and chemicals (green text) involved. Figure from \cite {nacke2011brainhex}.\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagram of a classical GGP environment (adapted from \cite {genesereth2014general}).\relax }}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Iteration of MCTS (graph adapted from \cite {browne2012survey,chaslot2008progressive,winands2010monte}).\relax }}{13}{figure.caption.12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Example of Single Point crossover between two individuals.\relax }}{20}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A game of Checkers.\relax }}{23}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A game of Nine Boards Tic-Tac-Toe.\relax }}{24}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A game of Connect Four.\relax }}{24}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A game of Skirmish.\relax }}{25}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A screen-shot of the Virtual Agent while playing a game of Checkers.\relax }}{26}{figure.caption.18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bayesian Network representation.\relax }}{28}{figure.caption.19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Correlation between the Four Temperaments and Big 5 factors.\relax }}{37}{figure.caption.25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The four graphs representing the correlation between each of the Four Temperaments and the factors that define the Big 5 model.\relax }}{38}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Choleric graph}}{38}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Melancholic graph}}{38}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Sanguine graph}}{38}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces Phlegmatic graph}}{38}{subfigure.2.4}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The four graphs represent the running times (in ms) for all the individuals in each generation, on y and x axis respectively.\relax }}{41}{figure.caption.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Choleric graph}}{41}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Melancholic graph}}{41}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Sanguine graph}}{41}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces Phlegmatic graph}}{41}{subfigure.3.4}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Correlation between specific Charge Default and fitness.\relax }}{41}{figure.caption.32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Charge Default gene for Phlegmatic personality.\relax }}{42}{figure.caption.33}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Nice Threshold gene's results of the III run.\relax }}{42}{figure.caption.34}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Random Error gene's results of the III run.\relax }}{43}{figure.caption.35}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fitness evolution throughout the generations, for each personality.\relax }}{44}{figure.caption.37}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Evaluation of Skirmish matches.\relax }}{46}{figure.caption.38}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Sanguine personality.\relax }}{47}{figure.caption.40}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Evaluation with Fittest Individuals (percent).\relax }}{47}{figure.caption.41}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Actions Agreement Ratio for Skirmish games with random individuals.\relax }}{49}{figure.caption.44}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Evaluation with Random Individuals (percentage).\relax }}{49}{figure.caption.45}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evaluation of the Skirmish games with random individuals.\relax }}{51}{figure.caption.42}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Example of simple DFA.\relax }}{II}{figure.caption.47}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Example of simple NFA.\footnotemark \relax }}{III}{figure.caption.48}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Aggressiveness gene.\relax }}{VI}{figure.caption.49}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Charge Default gene.\relax }}{VII}{figure.caption.50}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Charge Depth gene.\relax }}{VIII}{figure.caption.51}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Charge Discount gene.\relax }}{IX}{figure.caption.52}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Defensiveness gene.\relax }}{X}{figure.caption.53}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Epsilon gene.\relax }}{XI}{figure.caption.54}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Exploration Factor gene.\relax }}{XII}{figure.caption.55}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Grave gene.\relax }}{XIII}{figure.caption.56}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Horizon gene.\relax }}{XIV}{figure.caption.57}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Nice Threshold gene.\relax }}{XV}{figure.caption.58}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Random Error gene.\relax }}{XVI}{figure.caption.59}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Rave gene.\relax }}{XVII}{figure.caption.60}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Tree Discount gene.\relax }}{XVIII}{figure.caption.61}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Correlation between specific genes and fitness (continued on the next page).\relax }}{XIX}{figure.caption.62}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces Correlation between specific genes and fitness.\relax }}{XX}{figure.caption.63}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces Evaluation of the Skirmish games with fittest individuals.\relax }}{XXI}{figure.caption.64}
+\contentsline {figure}{\numberline {B.17}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Sanguine Personality.\relax }}{XXII}{figure.caption.65}
+\contentsline {figure}{\numberline {B.18}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Phlegmatic Personality.\relax }}{XXIII}{figure.caption.66}
+\contentsline {figure}{\numberline {B.19}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Melancholic Personality.\relax }}{XXIV}{figure.caption.67}
+\contentsline {figure}{\numberline {B.20}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Choleric Personality.\relax }}{XXV}{figure.caption.68}
+\contentsline {figure}{\numberline {B.21}{\ignorespaces Evaluation of Connect Four for Sanguine Personality.\relax }}{XXVI}{figure.caption.69}
+\contentsline {figure}{\numberline {B.22}{\ignorespaces Evaluation of Connect Four for Phlegmatic Personality.\relax }}{XXVII}{figure.caption.70}
+\contentsline {figure}{\numberline {B.23}{\ignorespaces Evaluation of Connect Four for Melancholic Personality.\relax }}{XXVIII}{figure.caption.71}
+\contentsline {figure}{\numberline {B.24}{\ignorespaces Evaluation of Connect Four for Choleric Personality.\relax }}{XXIX}{figure.caption.72}
+\contentsline {figure}{\numberline {B.25}{\ignorespaces Evaluation of Checkers Games.\relax }}{XXX}{figure.caption.73}
+\contentsline {figure}{\numberline {B.26}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Random Individual A.\relax }}{XXXI}{figure.caption.74}
+\contentsline {figure}{\numberline {B.27}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Random Individual B.\relax }}{XXXII}{figure.caption.75}
+\contentsline {figure}{\numberline {B.28}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Random Individual C.\relax }}{XXXIII}{figure.caption.76}
+\contentsline {figure}{\numberline {B.29}{\ignorespaces Evaluation of Nine Boards Tic-Tac-Toe for Random Individual D.\relax }}{XXXIV}{figure.caption.77}
+\contentsline {figure}{\numberline {B.30}{\ignorespaces Evaluation of Connect Four for Random Individual A.\relax }}{XXXV}{figure.caption.78}
+\contentsline {figure}{\numberline {B.31}{\ignorespaces Evaluation of Connect Four for Random Individual B.\relax }}{XXXVI}{figure.caption.79}
+\contentsline {figure}{\numberline {B.32}{\ignorespaces Evaluation of Connect Four for Random Individual C.\relax }}{XXXVII}{figure.caption.80}
+\contentsline {figure}{\numberline {B.33}{\ignorespaces Evaluation of Connect Four for Random Individual D.\relax }}{XXXVIII}{figure.caption.81}
+\contentsline {figure}{\numberline {B.34}{\ignorespaces Evaluation of Checkers games for Random Individuals.\relax }}{XXXIX}{figure.caption.82}

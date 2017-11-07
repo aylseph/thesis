@@ -1,0 +1,74 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{List of Abbreviations}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Goal of the project}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Structure of the thesis}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Discrepancies between Players}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Personality Models}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Bartle's types}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Stewart's Unified Model}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Quantic Foundry}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.4}{The Cardboard Republic Archetypes}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{Timmy, Johnny and Spike}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.6}{BrainHex}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.7}{Big Five Personality Traits}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.8}{Galen-Hippocrates' Four Temperaments}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.9}{Myer-Briggs}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.10}{Keirsey's Temperaments}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{General Game Playing}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Games Structure}{section.2.3}% 21
+\BOOKMARK [1][-]{section.2.4}{Monte Carlo Tree Search Algorithm}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.4.1}{Monte Carlo Tree Search Enhancements}{section.2.4}% 23
+\BOOKMARK [1][-]{section.2.5}{Machine Learning}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.5.1}{Decision Theory and Preference Elicitation}{section.2.5}% 25
+\BOOKMARK [2][-]{subsection.2.5.2}{Markov Decision Process}{section.2.5}% 26
+\BOOKMARK [1][-]{section.2.6}{Genetic Algorithm}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.6.1}{General Structure}{section.2.6}% 28
+\BOOKMARK [2][-]{subsection.2.6.2}{Selection}{section.2.6}% 29
+\BOOKMARK [2][-]{subsection.2.6.3}{Crossover}{section.2.6}% 30
+\BOOKMARK [2][-]{subsection.2.6.4}{Mutation}{section.2.6}% 31
+\BOOKMARK [2][-]{subsection.2.6.5}{Termination}{section.2.6}% 32
+\BOOKMARK [0][-]{chapter.3}{Methods}{}% 33
+\BOOKMARK [1][-]{section.3.1}{Problem Definition}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.2}{Personality Model}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.3}{Data Collection}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.1}{Selected Games}{section.3.3}% 37
+\BOOKMARK [1][-]{section.3.4}{Base Project}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.5}{Monte Carlo Tree Search}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.5.1}{Parameters}{section.3.5}% 40
+\BOOKMARK [1][-]{section.3.6}{Probability Model}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.7}{Genetic Algorithm}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.7.1}{Parameters Intervals}{section.3.7}% 43
+\BOOKMARK [1][-]{section.3.8}{Evaluation}{chapter.3}% 44
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 45
+\BOOKMARK [1][-]{section.4.1}{Comparison of Personality Models}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.2}{Data Collection}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.3}{Genetic Algorithm}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.3.1}{Results Overview}{section.4.3}% 49
+\BOOKMARK [2][-]{subsection.4.3.2}{Fittest Individuals}{section.4.3}% 50
+\BOOKMARK [1][-]{section.4.4}{Results Game Play}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.1}{Skirmish Games with Fittest Individuals}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.2}{Random Games with Fittest Individuals}{section.4.4}% 53
+\BOOKMARK [2][-]{subsection.4.4.3}{Skirmish Games with Random Individuals}{section.4.4}% 54
+\BOOKMARK [2][-]{subsection.4.4.4}{Random Games with Random Individuals}{section.4.4}% 55
+\BOOKMARK [1][-]{section.4.5}{Limitations and Improvements}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.6}{Evaluation Results}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 58
+\BOOKMARK [0][-]{appendix.A}{Preliminaries}{}% 59
+\BOOKMARK [1][-]{section.A.1}{Data Structures}{appendix.A}% 60
+\BOOKMARK [2][-]{subsection.A.1.1}{Graphs}{section.A.1}% 61
+\BOOKMARK [2][-]{subsection.A.1.2}{Directed Graphs}{section.A.1}% 62
+\BOOKMARK [2][-]{subsection.A.1.3}{Paths and cycles}{section.A.1}% 63
+\BOOKMARK [2][-]{subsection.A.1.4}{Connected Graphs}{section.A.1}% 64
+\BOOKMARK [2][-]{subsection.A.1.5}{Trees}{section.A.1}% 65
+\BOOKMARK [2][-]{subsection.A.1.6}{State Space}{section.A.1}% 66
+\BOOKMARK [1][-]{section.A.2}{Finite State-Machines}{appendix.A}% 67
+\BOOKMARK [2][-]{subsection.A.2.1}{Deterministic Finite Automata \(DFA\)}{section.A.2}% 68
+\BOOKMARK [2][-]{subsection.A.2.2}{Non-Deterministic Finite Automata \(NFA\)}{section.A.2}% 69
+\BOOKMARK [1][-]{section.A.3}{Probability}{appendix.A}% 70
+\BOOKMARK [2][-]{subsection.A.3.1}{Elementary rules}{section.A.3}% 71
+\BOOKMARK [0][-]{appendix.B}{Collection of Graphs}{}% 72
+\BOOKMARK [1][-]{section.B.1}{Single Individuals}{appendix.B}% 73
+\BOOKMARK [1][-]{section.B.2}{Evaluation}{appendix.B}% 74

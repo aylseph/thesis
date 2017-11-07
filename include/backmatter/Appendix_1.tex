@@ -1,0 +1,124 @@
+\chapter{Preliminaries}\label{app:prel}
+In this appendix we have decided to add a survey of the basic notions needed to fully understand the development of this project.
+\section{Data Structures}
+We will define here the data structures that will be come across during this thesis work. The definitions are adapted from \cite{kleinberg2006algorithm},\cite{russell1995modern} and \cite{west2001introduction}.
+\subsection{Graphs}
+\begin{definition}
+\label{def:graph}
+A \textbf{graph} $G$ is a triple consisting of a collection $V$ of \textbf{nodes}, or \textbf{vertex}; a set $E$ of \textbf{edges}, and a relation that associates with each edge two vertices (not necessarily distinct) called its \textbf{endpoints}. In other words, we represent an edge $e\in E$ as a two-element subset of $V:e={u,v}$ for some $u,v\in V$, where $u$ and $v$ are the \textbf{endpoints} of $e$. 
+\end{definition}
+
+\subsection{Directed Graphs}
+\begin{definition}
+\label{def:dirgraph}
+A \textbf{directed graph} $G'$ is a graph with a set of nodes $V$, and a set of \textbf{directed edges} $E'$. Each $e'\in E$ is an \textbf{ordered pair (u,v)}. The roles of the nodes are not interchangeable, and we call $u$ the \textbf{tail} of the edge, and $v$ the \textbf{head}. We also say that an edge is an edge \textbf{from} its tail \textbf{to} its head.
+\end{definition}
+
+\subsection{Paths and cycles}
+\begin{definition}
+A \textbf{path} in a graph $G=(V,E)$ is a sequence $H$ of nodes $v_1,v_2,...,v_{k-1}, v_k$ with the property that each consecutive pair $v_i, v_{i+1}$ is joined by an edge in $G$.
+\end{definition}
+\begin{definition}
+A \textbf{cycle} is a path $v_1,v_2,...,v_{k-1}, v_k$ in which $k>2$, the first $k-1$ nodes are all distinct, and $v_k=v_1$. A graph with no cycle is \textbf{acyclic}.
+\end{definition}
+
+\subsection{Connected Graphs}
+\begin{definition}
+A graph $G$ is \textbf{connected} if each pair of vertices in G belongs to a path; otherwise, $G$ is \textbf{disconnected}.
+\end{definition}
+\begin{definition}
+A directed graph is \textbf{strongly connected} if, for every two nodes $u$ and $v$, there is a path from $u$ to $v$ and a path from $v$ to $u$.
+\end{definition}
+
+\subsection{Trees}
+\begin{definition}
+A \textbf{tree} $T$ is a connected acyclic graph. Picked a node $r$ as \textbf{root}, each other edge is oriented away from it. For each node $v$, a \textbf{parent} (or \textbf{ancestor}) of $v$ is defined as the node $u$ that directly precedes $v$ on its path from $r$. A node $w$ is defined \textbf{child} (or \textbf{descendant}) of $v$ if $v$ is the parent of $w$.  A \textbf{leaf} is a vertex with no descendants.
+\end{definition}
+
+
+\subsection{State Space}
+\begin{definition}
+The \textbf{state space} of a problem is the set of all the states reachable from the initial state by any sequence of actions.
+\end{definition}
+
+\section{Finite State-Machines}
+State machines are defined as sets of states connected through transitions, which are controlled by inputs. Here we will define them differentiating whether they are deterministic, an example of which can be seen in figure \ref{fig:DFA}, or non-deterministic, as in figure \ref{fig:NFA}. Definitions are adapted from \cite{hopcroft2006automata}; we will be using the terms "state machine" and "automaton" interchangeably.\todo{fix this}
+
+\subsection{Deterministic Finite Automata (DFA)}
+\begin{definition}
+\label{def:detsm}
+A \textbf{deterministic finite automaton} is a tuple $<S, \Sigma, \delta, s_0, \Gamma>$, where:
+\begin{itemize}
+\item A finite set of \textbf{states} $S$.
+\item A finite set of \textbf{input symbols}, or \textbf{alphabet}, $\Sigma$.
+\item A \textbf{transition function} that takes as argument a state and an input symbol, and returns a state. The transition function will commonly be denoted $\delta$, and $\delta: S \times \Sigma \rightarrow S$. In informal graph representation of automata, $\delta$ was represented by arcs between states and the labels on the arcs. If $s$ is a state, and $\sigma$ is an input symbol, then $\delta(s,\sigma)$ is the state $q$ such that there is an arc labeled $\sigma$ from $s$ to $q$.
+\item A \textbf{start state} $s_0$, one of the states in $S$.
+\item A set of \textbf{final} or \textbf{accepting states} $\Gamma$, where $\Gamma \subseteq S$.
+\end{itemize}
+\end{definition}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm,
+                    semithick]
+
+  \node[initial,state]		(A)              {$s_0$};
+  \node[state]				(B) [right of=A] {$s_1$};
+  \node[state,accepting]	(C) [right of=B] {$s_2$};
+
+  \path (A) edge              node {1} (B)
+        (B) edge [loop above] node {0} (B)
+            edge              node {1} (C);
+\end{tikzpicture}
+\caption{Example of simple DFA.}\label{fig:DFA}
+\end{figure}
+
+
+\subsection{Non-Deterministic Finite Automata (NFA)}
+\begin{definition}
+\label{def:nondetsm}
+A \textbf{non deterministic finite automaton} is a tuple $<S, \Sigma, \delta, s_0, \Gamma>$, where:
+\begin{itemize}
+\item A finite set of \textbf{states} $S$.
+\item A finite set of \textbf{input symbols}, or \textbf{alphabet}, $\Sigma$.
+\item A \textbf{transition function} $\delta$ that takes as argument a state and an input symbol, and returns a subset of states, $\delta: S \times \Sigma \rightarrow \mathcal{P}(S)$. 
+\item A \textbf{start state} $s_0$, one of the states in $S$.
+\item A set of \textbf{final} or \textbf{accepting states} $\Gamma$, where $\Gamma \subseteq S$.
+\end{itemize}
+\end{definition}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm,
+                    semithick]
+
+  \node[initial,state]		(A)              {$s_0$};
+  \node[state]				(B) [right of=A] {$s_1$};
+  \node[state,accepting]	(C) [right of=B] {$s_2$};
+
+  \path (A) edge              node {1} (B)
+        (B) edge [loop above] node {0,1} (B)
+            edge              node {0} (C);
+\end{tikzpicture}
+\caption{Example of simple NFA.\protect\footnotemark}\label{fig:NFA}
+\end{figure}\footnotetext{Note that for state $s_1$ the input $0$ can lead indistinctly to either state $s_1$ or $s_2$.}
+
+\section{Probability}
+Here is a small recap on the probability basics needed to understand the logic behind the probability model in section \ref{sec:mlmethod}. This appendix will not contain more formulas and definition than strictly needed, so we refer to \cite{murphy2012machine} for further information.
+In this thesis, $P(\mathpzc{E})$ indicates the probability of event $\mathpzc{E}$ being true. It is known that $0\geq P(\mathpzc{E})\geq 1$, where $P(\mathpzc{E})=1$ means the event will certainly happen.
+\subsection{Elementary rules}
+\begin{definition}[Joint Probability]
+Given two events $\mathpzc{A}$ and $\mathpzc{B}$, the probability of both happening jointly is given by the product rule: $$P(\mathpzc{A}\vee\mathpzc{B})=P(\mathpzc{A,B})=P(\mathpzc{A|B})P(\mathpzc{B}).$$
+\end{definition}
+\begin{definition}[Sum Rule (Marginal Distribution)]
+Given a joint distribution of two events $\mathpzc{A,B}$, the marginal distribution is defined as: $$P(\mathpzc{A}=\sum_\mathpzc{b} P(\mathpzc{A,B})=\sum_\mathpzc{b} P(\mathpzc{A|B=b})P(\mathpzc{B=b}).$$
+\end{definition}
+\begin{definition}[Chain Rule]
+Given a set of $\mathpzc{N}$ events $\mathpzc{A_{[1,\ldots,N]}}$ the probability of them happening jointly is given by the chain rule: $$P(\mathpzc{A_{[1,\ldots,N]}}=P(\mathpzc{A_1})P(\mathpzc{A_2|A_1})\ldots P(\mathpzc{A_N|A_{N-1},A_{N-2},\ldots,A_1}).$$
+\end{definition}
+\begin{definition}[Conditional Probability]
+Given two events $\mathpzc{A}$ and $\mathpzc{B}$, the probability of event $\mathpzc{A}$, given that $\mathpzc{B}$ is true, is: $$P(\mathpzc{A|B})=\frac{P(\mathpzc{A,B})}{P(\mathpzc{B})}\qquad\text{if }P(\mathpzc{B}>0).$$
+\end{definition}
+\begin{definition}[Bayes' Rule]
+Given two events $\mathpzc{A}$ and $\mathpzc{B}$, $$P(\mathpzc{A=a|B=b})=\frac{P(\mathpzc{A=a,B=b})}{P(\mathpzc{B=b})}=\frac{P(\mathpzc{A=a})P(\mathpzc{B=b|A=a})}{\sum_a'P(\mathpzc{A=a'})P(\mathpzc{B=b|A=a'})}.$$
+\end{definition}

@@ -1,0 +1,75 @@
+\select@language {english}
+\contentsline {chapter}{List of Figures}{xi}{chapter*.2}
+\contentsline {chapter}{List of Tables}{xiii}{chapter*.3}
+\contentsline {chapter}{List of Abbreviations}{xv}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Goal of the project}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Structure of the thesis}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Discrepancies between Players}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Personality Models}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Bartle's types}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Stewart's Unified Model}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Quantic Foundry}{5}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The Cardboard Republic Archetypes}{6}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Timmy, Johnny and Spike}{7}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}BrainHex}{7}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Big Five Personality Traits}{7}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}Galen-Hippocrates' Four Temperaments}{8}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}Myer-Briggs}{9}{subsection.2.2.9}
+\contentsline {subsection}{\numberline {2.2.10}Keirsey's Temperaments}{9}{subsection.2.2.10}
+\contentsline {section}{\numberline {2.3}General Game Playing}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Games Structure}{10}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Monte Carlo Tree Search Algorithm}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Monte Carlo Tree Search Enhancements}{12}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Machine Learning}{16}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Decision Theory and Preference Elicitation}{16}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Markov Decision Process}{17}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Genetic Algorithm}{18}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}General Structure}{18}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Selection}{19}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Crossover}{19}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Mutation}{20}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.5}Termination}{20}{subsection.2.6.5}
+\contentsline {chapter}{\numberline {3}Methods}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Problem Definition}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Personality Model}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}Data Collection}{22}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Selected Games}{22}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Base Project}{25}{section.3.4}
+\contentsline {section}{\numberline {3.5}Monte Carlo Tree Search}{26}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Parameters}{27}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.6}Probability Model}{28}{section.3.6}
+\contentsline {section}{\numberline {3.7}Genetic Algorithm}{30}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Parameters Intervals}{32}{subsection.3.7.1}
+\contentsline {section}{\numberline {3.8}Evaluation}{33}{section.3.8}
+\contentsline {chapter}{\numberline {4}Results}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Comparison of Personality Models}{35}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Collection}{37}{section.4.2}
+\contentsline {section}{\numberline {4.3}Genetic Algorithm}{40}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Results Overview}{40}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Fittest Individuals}{43}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Results Game Play}{45}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Skirmish Games with Fittest Individuals}{45}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Random Games with Fittest Individuals}{46}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Skirmish Games with Random Individuals}{48}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Random Games with Random Individuals}{49}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Limitations and Improvements}{50}{section.4.5}
+\contentsline {section}{\numberline {4.6}Evaluation Results}{50}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusion}{53}{chapter.5}
+\contentsline {chapter}{\numberline {A}Preliminaries}{I}{appendix.A}
+\contentsline {section}{\numberline {A.1}Data Structures}{I}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Graphs}{I}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Directed Graphs}{I}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Paths and cycles}{I}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.4}Connected Graphs}{I}{subsection.A.1.4}
+\contentsline {subsection}{\numberline {A.1.5}Trees}{II}{subsection.A.1.5}
+\contentsline {subsection}{\numberline {A.1.6}State Space}{II}{subsection.A.1.6}
+\contentsline {section}{\numberline {A.2}Finite State-Machines}{II}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Deterministic Finite Automata (DFA)}{II}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Non-Deterministic Finite Automata (NFA)}{III}{subsection.A.2.2}
+\contentsline {section}{\numberline {A.3}Probability}{III}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Elementary rules}{III}{subsection.A.3.1}
+\contentsline {chapter}{\numberline {B}Collection of Graphs}{V}{appendix.B}
+\contentsline {section}{\numberline {B.1}Single Individuals}{VI}{section.B.1}
+\contentsline {section}{\numberline {B.2}Evaluation}{XXI}{section.B.2}
